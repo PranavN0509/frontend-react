@@ -37,7 +37,7 @@ export default function ProductList({refreshProducts}) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
-                {products.map((p) => (
+                {products?.map((p) => (
                   <tr key={p.id} className="hover:bg-gray-50 dark:hover:bg-gray-950 transition-colors">
                     <td className="px-6 py-4 text-center text-gray-700 dark:text-gray-200">{p.id}</td>
                     <td className="px-6 py-4 text-center text-gray-700 dark:text-gray-200">{p.name}</td>

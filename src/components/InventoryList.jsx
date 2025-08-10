@@ -36,7 +36,7 @@ function InventoryList({refreshInventory}) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
-                {inventory.map(item => (
+                {inventory?.map(item => (
                   <tr key={item.id} className="hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
                     <td className="px-6 py-4 text-gray-700 dark:text-gray-200">{item.name}</td>
                     <td className="px-6 py-4 text-gray-700 dark:text-gray-200">{item.sku}</td>

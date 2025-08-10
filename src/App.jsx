@@ -38,7 +38,7 @@ function App() {
         />
       </Routes>
       {/* </> */}
-    </Router>
+    </Router>, document.getElementById('root')
   );
 }
 
