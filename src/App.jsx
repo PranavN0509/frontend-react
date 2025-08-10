@@ -4,7 +4,7 @@ import ProductList from './components/ProductList';
 import AddTransactionForm from './components/AddTransactionForm';
 import InventoryList from './components/InventoryList';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 
 function App() {
   const [refreshProducts, setRefreshProducts] = useState(false);
